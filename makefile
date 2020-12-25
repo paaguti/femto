@@ -76,9 +76,9 @@ install:
 	-install -m 0755 femto $(DESTDIR)$(PREFIX)/bin
 
 install-docs:
-	-install -d -m 0755 $(DESTDIR)$(PREFIX)/share/docs/femto
-	-install -m 0644 docs/* $(DESTDIR)$(PREFIX)/share/docs/femto
+	-install -d -m 0755 $(DESTDIR)$(PREFIX)/share/doc/femto
+	-install -m 0644 docs/* $(DESTDIR)$(PREFIX)/share/doc/femto
 
 install-extra:
-	-install -d -m 0755 $(DESTDIR)$(PREFIX)/share/docs/femto
+	-install -d -m 0755 $(DESTDIR)$(PREFIX)/share/femto
 	-install -m 0644 examples/* $(DESTDIR)$(PREFIX)/share/femto
