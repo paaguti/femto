@@ -72,7 +72,7 @@ clean:
 	-$(RM) $(OBJ) femto
 
 install:
-	-install -s -m 0755 -o root -g root $(DESTDIR)/$(PREFIX)/bin
+	-install -d -m 0755 -o root -g root $(DESTDIR)/$(PREFIX)/bin
 	-install -m 0755 -o root -g root femto $(DESTDIR)/$(PREFIX)/bin
 
 install-docs:
